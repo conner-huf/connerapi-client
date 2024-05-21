@@ -44,6 +44,15 @@ function App() {
       });
   }
 
+  function callEducation() {
+    fetch(`${ACTIVE_URL}/education`)
+      .then(response => response.json())
+      .then(data => setApiResponse(data))
+      .catch((error) => {
+        console.error('Error:', error);
+      });
+  }
+
   return (
     <div className="App">
       <div className="header">
@@ -67,6 +76,10 @@ function App() {
         <li className='api-option-item'>
           <h4>Get Projects</h4>
           <button onClick={callProjects}>Projects</button>
+        </li>
+        <li className='api-option-item'>
+          <h4>Get Education</h4>
+          <button onClick={callEducation}>Education</button>
         </li>
       </ul>
 
