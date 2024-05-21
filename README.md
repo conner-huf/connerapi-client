@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# ConnerAPI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an API that I made for making things like my work background, projects I've worked on, my education, and everything accessible as an API. I thought this would be a neat little project to work on to get more familiar with deploying APIs to Microsoft Azure. And I'm really pumped with how it's turned out. This is the source code for the frontend UI, the backend code is available at [this link](https://github.com/conner-huf/ConnerAPI)
 
-## Available Scripts
+### Endpoints
+- /GET app-connerapi-dev.azurewebsites.net/resume
+- /GET app-connerapi-dev.azurewebsites.net/story
+- /GET app-connerapi-dev.azurewebsites.net/workexperience
+- /GET app-connerapi-dev.azurewebsites.net/projects
+- /GET app-connerapi-dev.azurewebsites.net/education
 
-In the project directory, you can run:
+### Client
+[ConnerAPI](https://conner-huf.github.io/connerapi-client/)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### 5/21/24
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I've added a frontend UI for interacting with the API. This makes it so much easier to show people :).
 
-### `npm test`
+#### 5/15/24
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I got the endpoints reworked today. Now there're /projects, /workexperience, /education endpoints that display resume info, then a /resume endpoint that shows everything. Next I'm going to get some endpoints that can get a single element by ID, I think.
 
-### `npm run build`
+#### 5/12/24
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This is a portfolio project I am currently working on. The idea is that you'll be able to call the API to return parts of my resume, portfolio, etc. Additionally, this is a great side project for getting more comfortable with working with .NET projects. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+As of right now, I've pretty much just got the basic functionality together and the project references all sorted. My next task is to get a database running with my projects data populated into it. I'm thinking it would be cool to have a few categories of project (fullstack / frontend / backend / etc) that can be filtered for in a drop down at the top of the page or something. The database and the API will be hosted on Azure. I'm thinking I'll be able to get that working in the next week or two.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
