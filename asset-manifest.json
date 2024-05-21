@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/connerapi-client/static/css/main.a2b6f5ce.css",
-    "main.js": "/connerapi-client/static/js/main.a8a43eda.js",
+    "main.js": "/connerapi-client/static/js/main.73c97f05.js",
     "static/js/453.ba1aab8b.chunk.js": "/connerapi-client/static/js/453.ba1aab8b.chunk.js",
     "index.html": "/connerapi-client/index.html",
     "main.a2b6f5ce.css.map": "/connerapi-client/static/css/main.a2b6f5ce.css.map",
-    "main.a8a43eda.js.map": "/connerapi-client/static/js/main.a8a43eda.js.map",
+    "main.73c97f05.js.map": "/connerapi-client/static/js/main.73c97f05.js.map",
     "453.ba1aab8b.chunk.js.map": "/connerapi-client/static/js/453.ba1aab8b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2b6f5ce.css",
-    "static/js/main.a8a43eda.js"
+    "static/js/main.73c97f05.js"
   ]
 }
