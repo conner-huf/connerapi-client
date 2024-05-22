@@ -69,7 +69,7 @@ body{
 .api-result {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   width: 75%;
   height: auto;
@@ -88,4 +88,6 @@ body{
   word-wrap: break-word;  
   overflow-wrap: break-word;
   max-width: 100%;
+  margin: 1% 3%;
+  
 }
